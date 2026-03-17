@@ -1,23 +1,58 @@
-<div style="width: 100%; height: 300px; display: flex; justify-content: center; align-items: center; gap: 20px; padding: 20px;">
-    <!-- 杭州 & 加州 双城生活 -->
-    <div style="width: 100px; height: 100px; background-color: #ff793f; animation: pulse 2s infinite;"></div>
-    <div style="width: 100px; height: 100px; background-color: #05d9e8; animation: pulse 2s infinite;"></div>
+<div align="center">
 
-    <!-- 设计师 & 创业者 -->
-    <div style="width: 100px; height: 100px; background-color: #ff2a6d; animation: bounce 2s infinite;"></div>
-    <div style="width: 100px; height: 100px; background-color: #05ffa1; animation: bounce 2s infinite;"></div>
+  <!-- 第一层：身份象征（设计师 + 创业者） -->
+  <div style="
+    display: flex;
+    gap: 24px;
+    margin: 30px 0;
+  ">
+    <div style="
+      width: 90px;
+      height: 90px;
+      background: linear-gradient(135deg, #ff2a6d, #c72c66);
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(255, 42, 109, 0.4);
+    "></div>
+    <div style="
+      width: 90px;
+      height: 90px;
+      background: linear-gradient(135deg, #05ffa1, #03cc82);
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(5, 255, 161, 0.4);
+    "></div>
+  </div>
+
+  <!-- 第二层：双城生活（杭州 + California） -->
+  <div style="
+    display: flex;
+    gap: 24px;
+    margin: 20px 0;
+  ">
+    <div style="
+      width: 70px;
+      height: 70px;
+      background: linear-gradient(135deg, #ff793f, #d96b33);
+      border-radius: 50%;
+      box-shadow: 0 6px 16px rgba(255, 121, 63, 0.35);
+    "></div>
+    <div style="
+      width: 70px;
+      height: 70px;
+      background: linear-gradient(135deg, #05d9e8, #04b3c2);
+      border-radius: 50%;
+      box-shadow: 0 6px 16px rgba(5, 217, 232, 0.35);
+    "></div>
+  </div>
+
+  <!-- 第三层：世界公民愿景 -->
+  <div style="
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle, #05ffa1, #05d9e8, #ff2a6d);
+    border-radius: 50%;
+    margin: 30px auto;
+    box-shadow: 0 0 30px rgba(5, 255, 161, 0.5);
+    animation: none; /* 占位，实际无动画 */
+  "></div>
+
 </div>
-
-<style>
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-    40% { transform: translateY(-30px); }
-    60% { transform: translateY(-15px); }
-}
-</style>
