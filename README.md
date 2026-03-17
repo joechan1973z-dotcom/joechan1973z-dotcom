@@ -1,6 +1,6 @@
 <div align="center">
 
-# <span style="color:#ff2a6d;">👋 Hi, I'm RON </span>
+# <span style="color:#ff2a6d;">👋 Hi, I'm RON！ </span>
 
 > <span style="color:#05d9e8;">📍 Base:</span> 杭州 & 🌆 California  
 > <span style="color:#ff793f; font-weight: bold;">🎨 创业者</span>
